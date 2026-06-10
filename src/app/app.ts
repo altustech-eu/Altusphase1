@@ -22,10 +22,10 @@ import { FooterComponent } from '../components/Footer'; // <-- Import the new Fo
   imports: [
     Nav, 
     HeroComponent, 
-    TrustedLogosComponent, 
     HomeShowcaseComponent, 
     AusbildungSectionComponent,
     CountrySearchComponent,
+    TrustedLogosComponent, 
     ToolsSectionComponent,
     IndustriesSectionComponent,
     StudyProgramsComponent,
@@ -40,11 +40,12 @@ import { FooterComponent } from '../components/Footer'; // <-- Import the new Fo
   template: `
     <app-nav></app-nav>
     <app-hero></app-hero>
-    <app-trusted-logos></app-trusted-logos>
+  
     <app-home-showcase></app-home-showcase> 
     <app-ausbildung-section></app-ausbildung-section>
     <app-country-search></app-country-search>
     <app-tools-section></app-tools-section>
+      <app-trusted-logos></app-trusted-logos>
     <app-industries-section></app-industries-section>
     <app-study-programs></app-study-programs>
     <app-study-destination></app-study-destination>
