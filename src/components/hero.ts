@@ -134,13 +134,7 @@ import { CommonModule } from '@angular/common';
       </div>
     </section>
   `,
-  styles: [`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-    
-    .font-main {
-      font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    }
-  `]
+  
 })
 export class HeroComponent {
   // States
